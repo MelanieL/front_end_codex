@@ -1,0 +1,21 @@
+/* BORDER-BOX */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* CLEARFIX */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
