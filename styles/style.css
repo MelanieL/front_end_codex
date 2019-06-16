@@ -19,3 +19,8 @@ html {
   height: 0;
 }
 
+/* Custom CSS */
+
+.main-page {
+  background-color: black;
+}
