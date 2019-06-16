@@ -1,4 +1,4 @@
-/* BORDER-BOX */
+/* BORDER-BOX
 
 html {
   box-sizing: border-box;
@@ -9,7 +9,7 @@ html {
 }
 
 
-/* CLEARFIX */
+CLEARFIX
 
 .clearfix:after {
   visibility: hidden;
@@ -17,10 +17,30 @@ html {
   content: "";
   clear: both;
   height: 0;
-}
+} */
 
 /* Custom CSS */
 
-.main-page {
-  background-color: black;
+body {
+  padding: 0;
+  margin: 0;
+  background: #f2f6e9;
+}
+/*--- navigation bar ---*/
+.navbar {
+  background:#6ab446;
+}
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
 }
