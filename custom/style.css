@@ -1,0 +1,6 @@
+/* Change base font size */
+
+* {
+    font-size: 18px;
+    line-height: 2;
+}
